@@ -1,0 +1,115 @@
+{
+  "orders": [
+    {
+      "id": 1,
+      "dayOrder": "2023-06-27",
+      "totalMoney": 100000,
+      "quantity": 15000,
+      "productId": 1
+    },
+    {
+      "id": 2,
+      "dayOrder": "2023-06-30",
+      "totalMoney": 100000,
+      "quantity": 12000,
+      "productId": 1
+    },
+    {
+      "dayOrder": "2023-07-01",
+      "productId": "1",
+      "totalMoney": 2100,
+      "quantity": 23,
+      "id": 3
+    },
+    {
+      "dayOrder": "2023-06-28",
+      "productId": "1",
+      "totalMoney": 220,
+      "quantity": 2,
+      "id": 4
+    },
+    {
+      "dayOrder": "2023-07-04",
+      "productId": "1",
+      "totalMoney": 2300,
+      "quantity": 2,
+      "id": 5
+    },
+    {
+      "dayOrder": "2023-07-03",
+      "productId": "1",
+      "totalMoney": 250,
+      "quantity": 2,
+      "id": 6
+    },
+    {
+      "dayOrder": "2023-07-04",
+      "productId": "1",
+      "totalMoney": 4200,
+      "quantity": 2,
+      "id": 7
+    },
+    {
+      "dayOrder": "2023-07-04",
+      "productId": "1",
+      "totalMoney": 500,
+      "quantity": 2,
+      "id": 8
+    },
+    {
+      "dayOrder": "2023-07-03",
+      "productId": "2",
+      "totalMoney": 400,
+      "quantity": 2,
+      "id": 9
+    },
+    {
+      "dayOrder": "2023-07-03",
+      "productId": "3",
+      "totalMoney": 4002,
+      "quantity": 5,
+      "id": 10
+    },
+    {
+      "dayOrder": "2023-07-03",
+      "productId": "2",
+      "totalMoney": 406,
+      "quantity": 2,
+      "id": 11
+    },
+    {
+      "dayOrder": "2023-07-01",
+      "productId": "2",
+      "totalMoney": 150,
+      "quantity": 1,
+      "id": 12
+    },
+    {
+      "dayOrder": "2023-07-04",
+      "productId": "2",
+      "totalMoney": 400,
+      "quantity": 1,
+      "id": 13
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "banh",
+      "price": 100,
+      "TypeProduct": "banh keo"
+    },
+    {
+      "id": 2,
+      "name": "Xe dap",
+      "price": 60,
+      "TypeProduct": "car"
+    },
+    {
+      "id": 3,
+      "name": "May bay",
+      "price": 12200,
+      "TypeProduct": "Booin"
+    }
+  ]
+}

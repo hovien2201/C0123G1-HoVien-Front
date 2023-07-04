@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container mt-5 mb-5 ">
+        <div
+            class="row height d-flex justify-content-center align-items-center"
+
+        >
+            <div class="col-md-6">
+                <div class="card px-5 py-4">
+                    <div style="text-align: center"  >
+                        <h2  >Add new Customer</h2>
+                    </div>
+                    <Form>
+                        <div class=" mt-4 inputs">
+                            <Field
+                                type="text"
+                                class="form-control"
+                                name="name"
+                                placeholder="Tên Khách hàng"
+                            />
+                            <ErrorMessage name="name" component="span" class="error-r" />
+
+                        </div>
+                        <div className=" mt-4 inputs">
+                            <Field
+                                as="select"
+                                name="type"
+                                class="form-control"
+                            >
+                                <option value="">Thứ hạng</option>
+                                <option value="Diamond">Diamond</option>
+                                <option value="Platinum">Platinum</option>
+                                <option value="Gold">Gold</option>
+                                <option value="Silver">Silver</option>
+                            </Field>
+                            <ErrorMessage name="type" component="span" class="error-r" />
+                        </div>
+                        <div class=" mt-4 inputs">
+                            <Field
+                                type="date"
+                                class="form-control"
+                                min="0"
+                                name="dayOfBirth"
+                                placeholder="Ngày sinh"
+                            />
+                            <ErrorMessage name="dayOfBirth" component="span" class="error-r" />
+                        </div>
+
+                        <div class="row mt-4  ">
+                            <div class="col-md-6 form-group">
+                                <Field
+                                    as="select"
+                                    name="gender"
+                                    class="form-control"
+                                >
+                                    <option value="Nam">Nam</option>
+                                    <option value="Nữ">Nữ</option>
+                                    <option value="Khác">Khác</option>
+                                </Field>
+                                <ErrorMessage name="gender" component="span" class="error-r" />
+
+                            </div>
+                            <div class="** form-group mt-3 mt-md-0">
+                                <Field
+                                    type="number"
+                                    class="form-control"
+                                    name="identityCard"
+                                    placeholder="Số CMND"
+                                />
+                                <ErrorMessage name="identityCard" component="span" class="error-r" />
+
+                            </div>
+                        </div>
+                        <div class="mt-2 inputs">
+                            <Field
+                                type="number"
+                                class="form-control"
+                                name="phoneNumber"
+                                placeholder="Số điện thoại"
+                            />
+                            <ErrorMessage name="phoneNumber" component="span" class="error-r" />
+                        </div>
+                        <div class="mt-2 inputs">
+                            <Field
+                                type="text"
+                                class="form-control"
+                                name="email"
+                                placeholder="Email"
+                            />
+                            <ErrorMessage name="email" component="span" class="error-r" />
+                        </div>
+                        <div class="mt-2 inputs">
+                            <Field
+                                type="text"
+                                class="form-control"
+                                name="address"
+                                placeholder="Địa chỉ"
+                            />
+                            <ErrorMessage name="address" component="span" class="error-r" />
+                        </div>
+                        <div class="text-center m-auto mt-4">
+                            <button type="submit" class=" btn btn-success ">
+                                <b className="text-center">Add new</b>
+                            </button>
+                        </div>
+                    </Form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
